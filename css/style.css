@@ -1,0 +1,175 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+.header {
+	padding-top: 22px;
+    padding-bottom: 10px;
+}
+.container {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.logo {
+	flex-basis: 20%;
+	max-width: 20%;
+}
+.menu {
+	flex-basis: 80%;
+	max-width: 80%;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 0px;
+}
+.menu ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #1b0f0fde;
+	display: block;
+	padding: 22px 50px;
+	font-size: 18px;
+	border-radius: 3px;
+}
+.menu ul li:hover a {
+	background: #30336bb5;
+	color: white;
+	transition-duration: .5s;
+	transition-property: all;
+}
+
+
+
+/*banner*/
+.container1 {
+	width: 92%;
+	margin: auto;
+}
+.container1 img {
+	width: 100%;
+}
+
+
+
+/*content*/
+.photo {
+	padding: 70px 75px;
+}
+.photo p {
+	margin: 0;
+}
+.photo .active {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #676161;
+}
+.photo h1 {
+	margin: 0;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	font-family: tahoma;
+	font-weight: normal;
+	color: #000000d1;
+}
+.photo .lorem {
+	margin-bottom: 42px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.box {
+	display: flex;
+	padding: 45px 121px 80px 121px;
+}
+.content1 {
+	flex-basis: 47%;
+	max-width: 47%;
+	margin-right: 6%;
+}
+.content2 {
+	flex-basis: 47%;
+	max-width: 47%;
+}
+.box img {
+	width: 100%;
+}
+.box p,h1 {
+	margin: 0;
+}
+.box .same {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #676161;
+	margin: 26px 0;
+}
+.box .more {
+	margin-top: 25px;
+	font-family: tahoma;
+	font-weight: normal;
+	color: #000000d1;
+	margin-bottom: 28px;
+}
+.box p {
+    line-height: 23px;
+    font-family: sans-serif;
+}
+
+
+
+/*footer*/
+.footer {
+	padding-left: 80px;
+	padding-right: 60px;
+	background: #bdc3c761;
+	height: 75px;
+}
+.container3 {
+	display: flex;
+}
+.menu2 {
+	flex-basis: 50%;
+	max-width: 50%;
+}
+.menu3 {
+	flex-basis: 50%;
+	max-width: 50%;
+}
+.menu2 ul {
+	display: flex;
+	list-style: none;
+}
+.menu2 ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 10px 0;
+	font-size: 17px;
+}
+.menu2 ul li {
+	margin-right: 20px;
+}
+.menu3 ul li {
+	margin-right: 20px;
+}
+.menu3 ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+.menu3 ul li a {
+	text-decoration: none;
+	text-transform: capitalize;
+	color: black;
+	display: block;
+	padding: 10px 0;
+	font-size: 17px;
+}
+.menu3 ul li a i {
+	font-size: 16px;
+}
